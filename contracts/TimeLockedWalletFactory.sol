@@ -1,7 +1,6 @@
-pragma solidity 0.8.0;
-
+// SPDX-License-Identifier: GPL-3.0;
+pragma solidity ^0.8.0;
 import "./TimeLockedWallet.sol";
-
 contract TimeLockedWalletFactory {
     mapping(address => address[]) wallets;
     
@@ -21,4 +20,5 @@ contract TimeLockedWalletFactory {
         
         return address(wallet);
     }
+    
 }
