@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import Hero from '../Components/Hero'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
@@ -10,10 +11,9 @@ export default function Home() {
         <meta name="description" content="Halogen Finance Home page" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className={styles.main}>
-        <div>
-        Main Content
-        </div>
+      <main >
+        <Hero />
+       
       </main>
     </div>
   )

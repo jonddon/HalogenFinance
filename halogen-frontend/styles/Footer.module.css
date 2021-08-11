@@ -1,14 +1,127 @@
-.footer {
+.svg {
+  color:white; 
+  height:0.8rem; 
+  margin:auto 0.3rem;
+}
+  .footer {
     width: 100%;
-    border-top: 1px solid #eaeaea;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: block;
+    background-image: linear-gradient(to right, #051937, #0c1c36, #121f36, #182235, #1d2534);
   }
   
-  .footer a {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-grow: 1;
+   .innerFooter {
+     width: 95%;
+     margin: auto;
+     display: flex;
+     flex-wrap: wrap;
+     box-sizing: border-box;
+     justify-content: center;
+   }
+  
+   .footerItems h3 {
+    font-size: 12px;
+    line-height: 17px;
+    color: rgba(255,255,255,0.2);
+    font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing: 0.250em;
+   }
+   
+  .footerItems {
+    width: 25%;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    color: #fff;
+  }
+  
+  .footerItems p {
+    font-size: 16px;
+    text-align: justify;
+    line-height: 25px;
+    color: #fff;
+  }
+  
+  .footerItems h1 {
+    color: #fff;
+  }
+  
+  .border1 {
+    height: 3px;
+    width: 40px;
+    background: #ff9800;
+    color: #ff9800;
+    background-color: #ff9800;
+    border: 0px;
+  }
+  
+
+  .ul a {
+    outline: none;
+    font-size: 13px;
+    letter-spacing: 0.5px;	
+    color: #999999;
+    font-family: inherit;
+    font-weight: bold;
+    cursor: pointer;
+    transition: .2s;
+    -webkit-transition: .2s;
+    -moz-transition: .2s;
+  }
+  
+  .ul a:hover {
+    color: #ff9800;
+  }
+  
+  .ul li {
+    list-style: none;
+    margin: 10px 0;
+    height: 25px;
+  }
+  
+  .ul i {
+    margin-right: 20px;
+  }
+  
+  .socialMedia {
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+  }
+  
+  .socialMedia a {
+    text-decoration: none;
+  }
+  
+  .socialMedia i {
+    height: 25px;
+    width: 25px;
+    margin: 20px 10px;
+    padding: 4px;
+    color: #fff;
+    transition: 0.5s;
+  }
+  
+  .footerBottom {
+    padding: 10px;
+    color: #fff;
+    font-size: 12px;
+    text-align: center;
+    background-image: linear-gradient(to right, #051937, #0c1c36, #121f36, #182235, #1d2534);
+ 
+  }
+  
+  /* for tablet mode view */
+  
+  @media screen and (max-width: 1275px) {
+    .footerItems {
+      width: 50%;
+    }
+  }
+  
+  /* for mobile screen view */
+  
+  @media screen and (max-width: 660px) {
+    .footerItems {
+      width: 100%;
+    }
   }

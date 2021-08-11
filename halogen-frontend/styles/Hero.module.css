@@ -1,0 +1,111 @@
+
+.heroDiv{
+    text-align: center;
+}
+
+.textSection h1{
+    font-size: 3rem;
+}
+.textSection{
+    line-height: 64px;
+    font-weight: 800;
+    max-width: 40rem;
+}
+
+.textSection p{
+    max-width: 30rem;
+    margin: auto;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #a8a8b4;
+
+}
+
+.cryptoDream {
+    color:cornflowerblue;
+}
+
+.btnSection{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 22rem;
+    margin: 1.5rem auto;
+}
+.btn{
+border: none;
+padding: 0.7rem 1.1rem;
+border-radius: 3px;
+color: white;
+font-size: 0.9rem;
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
+.getStarted {
+    position: relative;
+    background: #0f2027;
+    background-image: linear-gradient(to right, #051937, #0c1c36, #121f36, #182235, #1d2534);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    -webkit-transition: all 300ms ease-in;
+    transition: all 300ms ease-in;
+    -webkit-transform-origin: right;
+            transform-origin: right;
+    z-index: 1;
+  }
+  
+  .getStarted:after {
+    z-index: -1;
+    -webkit-transition: -webkit-transform 400ms ease-in;
+    transition: -webkit-transform 400ms ease-in;
+    transition: transform 400ms ease-in;
+    transition: transform 400ms ease-in, -webkit-transform 400ms ease-in;
+    -webkit-transform-origin: center;
+            transform-origin: center;
+    -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+    content: '';
+    height: 100%;
+    color: red;
+    background: #ed213a;
+    /* fallback for old browsers */
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-gradient(linear, left top, right top, from(#93291e), to(#f15b43));
+    background: linear-gradient(to right, #93291e, #f15b43);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-weight: 800px;
+    position: absolute;
+    width: 100%;
+    left: 0px;
+    bottom: 0%;
+    -webkit-transform-origin: right;
+            transform-origin: right;
+    -webkit-transform: scaleX(0);
+            transform: scaleX(0);
+  }
+  
+  .getStarted:hover:after {
+    -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+    -webkit-transform-origin: left;
+            transform-origin: left;
+  }
+
+
+.upcomingBtn {
+color: rgb(39, 37, 37);
+background: transparent;
+border: 2px solid #1d2534;
+}
+
+
+.upcomingBtn:hover {
+    color: white;
+    border: 2px solid #1d2534;
+    background-image: linear-gradient(to right, #051937, #0c1c36, #121f36, #182235, #1d2534);
+    -webkit-transition: all 300ms ease-in;
+    transition: all 300ms ease-in;
+}
